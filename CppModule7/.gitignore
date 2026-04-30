@@ -1,0 +1,14 @@
+# Executables
+*/a.out
+*/*.o
+
+# Visual Studio Code
+
+*/.vscode
+
+# Vim
+*/*.swp
+*/*.swo
+
+# macOS
+*/.DS_Store
