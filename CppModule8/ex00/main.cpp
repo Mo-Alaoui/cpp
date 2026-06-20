@@ -13,6 +13,9 @@ int main()
     {
         std::vector<int>::iterator it = easyfind(v, 2);
         std::cout << "Found: " << *it << std::endl;
+
+        std::vector<int>::iterator it1 = easyfind(v, 22);
+        std::cout << "Found: " << *it1 << std::endl;
     }
     catch (std::exception& e)
     {

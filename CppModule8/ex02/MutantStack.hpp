@@ -20,9 +20,6 @@ public :
     }
     ~MutantStack() {}
 
-
-
-
     MutantStack(T v) : std::stack<T>() 
     {
         this->c.push_back(v);
